@@ -1,15 +1,15 @@
 import Link from 'next/link';
 import styles from './NavMenu.module.css';
+import { latoNormal } from '@/fonts';
 
-// Keep this as a server component for SEO. If we want something dynamic/interactive, such as a login button, which requires a client component then we will create new components on the leaves of the component tree to accomplish this.
-// ? There is a component folder in the root of the project. We should put components in the component folder if we plan to share said component among multiple pages.
+// Keep this as a server component for SEO.
 
 export default function NavMenu() {
   return (
-    <nav className={styles.nav}>
+    <nav className={`${styles.nav} ${latoNormal.className}`}>
       <Link href={'/'}>
-        evanmarshall<span className='brand__accent'>.</span>
-        <span className='brand__secondary'>dev</span>
+        evanmarshall<span className={styles.brand__accent}>.</span>
+        <span className={styles.brand__secondary}>dev</span>
       </Link>
       <ul className={styles.links}>
         <li>

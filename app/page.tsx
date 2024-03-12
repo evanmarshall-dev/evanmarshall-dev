@@ -1,6 +1,7 @@
 import styles from './page.module.css';
 
 import type { Metadata } from 'next';
+import { playfairDisplayNormal } from '@/fonts';
 
 export const metadata: Metadata = {
   title: 'Web Developer: Evan Marshall',
@@ -12,7 +13,7 @@ export default async function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.center}>
-        <h1>
+        <h1 className={playfairDisplayNormal.className}>
           evanmarshall<span className='brand__accent'>.</span>
           <span className='brand__secondary'>dev</span>
         </h1>
