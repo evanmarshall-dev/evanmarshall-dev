@@ -14,8 +14,8 @@ export default async function Home() {
     <main className={styles.main}>
       <div className={styles.center}>
         <h1 className={playfairDisplayNormal.className}>
-          evanmarshall<span className='brand__accent'>.</span>
-          <span className='brand__secondary'>dev</span>
+          evanmarshall<span className={styles.brand__accent}>.</span>
+          <span className={styles.brand__secondary}>dev</span>
         </h1>
       </div>
     </main>
