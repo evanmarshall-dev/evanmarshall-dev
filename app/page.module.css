@@ -36,10 +36,12 @@
 
 span.brand__accent {
   color: var(--accent);
+  font-size: calc(var(--base-font-size) * 2);
 }
 
 span.brand__secondary {
   color: var(--secondary);
+  font-size: calc(var(--base-font-size) * 2);
 }
 
 .code {
