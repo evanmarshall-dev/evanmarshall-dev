@@ -1,23 +1,5 @@
 .nav {
-  color: #fff;
-  display: flex;
-  height: 70px;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 1rem;
-}
-
-.links {
-  list-style: none;
-  display: flex;
-  margin-right: 1rem;
-}
-
-.links li {
-  height: 70px;
-  display: flex;
-  align-items: center;
-  padding: 0.25rem;
+  color: var(--foreground);
 }
 
 span.brand__accent {

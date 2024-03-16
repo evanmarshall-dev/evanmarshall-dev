@@ -7,11 +7,15 @@ import { latoNormal } from '@/fonts';
 export default function NavMenu() {
   return (
     <nav className={`${styles.nav} ${latoNormal.className}`}>
-      <Link href={'/'}>
-        evanmarshall<span className={styles.brand__accent}>.</span>
-        <span className={styles.brand__secondary}>dev</span>
-      </Link>
-      <ul className={styles.links}>
+      <ul>
+        <li>
+          <Link href={'/'}>
+            evanmarshall<span className={styles.brand__accent}>.</span>
+            <span className={styles.brand__secondary}>dev</span>
+          </Link>
+        </li>
+      </ul>
+      <ul>
         <li>
           <Link href={'#about'}>About</Link>
         </li>
@@ -21,6 +25,8 @@ export default function NavMenu() {
         <li>
           <Link href={'#projects'}>Projects</Link>
         </li>
+      </ul>
+      <ul>
         <li>
           <Link href={'#contact'}>Contact</Link>
         </li>
