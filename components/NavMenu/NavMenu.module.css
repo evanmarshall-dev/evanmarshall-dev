@@ -1,9 +1,9 @@
 span.brand__accent {
-  color: var(--accent);
+  color: rgba(var(--sunset-orange-rgb), 1);
 }
 
 span.brand__secondary {
-  color: var(--secondary);
+  color: rgba(var(--sandrift-rgb), 1);
 }
 
 .navbar {
@@ -14,7 +14,7 @@ span.brand__secondary {
   display: flex;
   z-index: 1000;
   position: fixed;
-  background: var(--background);
+  background: rgba(var(--ebony-rgb), 1);
   /* TODO: Un-comment white background for testing. */
   /* background: white; */
 }
@@ -31,6 +31,7 @@ span.brand__secondary {
 }
 
 .navbarContainerWrapper {
+  font-size: 1.125rem;
   flex: 1;
   justify-content: space-between;
   align-items: center;
@@ -38,7 +39,7 @@ span.brand__secondary {
 }
 
 .brandLink {
-  color: var(--foreground);
+  color: rgba(var(--wild-sand-rgb), 1);
   float: left;
   text-decoration: none;
   position: relative;
@@ -57,7 +58,8 @@ span.brand__secondary {
 }
 
 .menuLink {
-  color: var(--foreground);
+  font-size: 1.125rem;
+  color: rgba(var(--wild-sand-rgb), 1);
   max-width: 58.75rem;
   padding: 0.625rem 1.25rem;
   line-height: 1rem;
@@ -70,6 +72,7 @@ span.brand__secondary {
 }
 
 .ctaContainer {
+  font-size: 1.125rem;
   column-gap: 0.625rem;
   align-items: center;
   margin-left: 1.25rem;
@@ -77,9 +80,10 @@ span.brand__secondary {
 }
 
 .ctaLink {
-  border: 1px solid var(--accent);
-  background-color: var(--accent);
-  color: var(--foreground);
+  font-size: 1.125rem;
+  border: 1px solid rgba(var(--sunset-orange-rgb), 1);
+  background-color: rgba(var(--sunset-orange-rgb), 1);
+  color: rgba(var(--wild-sand-rgb), 1);
   text-align: center;
   letter-spacing: 0.031rem;
   text-transform: none;
@@ -93,7 +97,7 @@ span.brand__secondary {
 }
 
 .ctaLink:hover {
-  border: 1px solid var(--accent);
+  border: 1px solid rgba(var(--sunset-orange-rgb), 1);
   background-color: transparent;
-  color: var(--accent);
+  color: rgba(var(--sunset-orange-rgb), 1);
 }

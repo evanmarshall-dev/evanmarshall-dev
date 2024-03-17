@@ -1,0 +1,20 @@
+{
+  "name": "Web Developer | Evan Marshall",
+  "short_name": "Evan Marshall",
+  "description": "I design, build and maintain businesses online. Whether it is branding, updates, or full website rebuilds; I am your web developer. Contact me to discuss how you want to get your business working for you online",
+  "background_color": "#0f1626",
+  "theme_color": "#ab987a",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/favicon/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/favicon/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

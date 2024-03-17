@@ -18,24 +18,24 @@ export const metadata: Metadata = {
       {
         rel: 'icon',
         sizes: '32x32',
-        url: '/favicon.ico',
+        url: '/favicon/favicon.ico',
       },
     ],
     apple: [
       {
         rel: 'apple-touch-icon',
-        url: '/apple-touch-icon.png',
+        url: '/favicon/apple-touch-icon.png',
       },
     ],
     other: [
       {
         rel: 'icon',
         type: 'image/svg+xml',
-        url: '/icon.svg',
+        url: '/favicon/icon.svg',
       },
     ],
   },
-  manifest: 'https://www.evanmarshall.dev/manifest.webmanifest',
+  manifest: 'https://www.evanmarshall.dev/favicon/manifest.webmanifest',
   openGraph: {
     title: 'Web Developer | Evan Marshall',
     description:
