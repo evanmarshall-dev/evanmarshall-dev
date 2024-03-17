@@ -6,31 +6,33 @@ import { latoNormal } from '@/fonts';
 
 export default function NavMenu() {
   return (
-    <nav className={`${styles.nav} ${latoNormal.className}`}>
-      <ul>
-        <li>
-          <Link href={'/'}>
+    <div className={`${styles.navbar} ${latoNormal.className}`}>
+      <div className={styles.navbarContainer}>
+        <div className={styles.navbarContainerWrapper}>
+          <Link href={'/'} className={styles.brandLink}>
             evanmarshall<span className={styles.brand__accent}>.</span>
             <span className={styles.brand__secondary}>dev</span>
           </Link>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <Link href={'#about'}>About</Link>
-        </li>
-        <li>
-          <Link href={'#services'}>Services</Link>
-        </li>
-        <li>
-          <Link href={'#projects'}>Projects</Link>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <Link href={'#contact'}>Contact</Link>
-        </li>
-      </ul>
-    </nav>
+          <nav className={styles.menu}>
+            <div className={styles.menuWrapper}>
+              <Link className={styles.menuLink} href={'#about'}>
+                About
+              </Link>
+              <Link className={styles.menuLink} href={'#services'}>
+                Services
+              </Link>
+              <Link className={styles.menuLink} href={'#projects'}>
+                Projects
+              </Link>
+            </div>
+          </nav>
+          <div className={styles.ctaContainer}>
+            <Link className={styles.ctaLink} href={'#contact'}>
+              Contact
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }

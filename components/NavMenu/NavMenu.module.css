@@ -1,11 +1,99 @@
-.nav {
-  color: var(--foreground);
-}
-
 span.brand__accent {
   color: var(--accent);
 }
 
 span.brand__secondary {
   color: var(--secondary);
+}
+
+.navbar {
+  width: 100%;
+  height: fit-content;
+  align-items: center;
+  padding: 0.938rem 0;
+  display: flex;
+  z-index: 1000;
+  position: fixed;
+  background: var(--background);
+  /* TODO: Un-comment white background for testing. */
+  /* background: white; */
+}
+
+.navbarContainer {
+  /* TODO: This padding is large screens, change with responsive design. */
+  padding: 0 3.125rem;
+  min-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  max-width: 58.75rem;
+}
+
+.navbarContainerWrapper {
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.brandLink {
+  color: var(--foreground);
+  float: left;
+  text-decoration: none;
+  position: relative;
+}
+
+.menu {
+  text-align: right;
+  float: right;
+  position: relative;
+  display: block;
+}
+
+.menuWrapper {
+  align-items: center;
+  display: flex;
+}
+
+.menuLink {
+  color: var(--foreground);
+  max-width: 58.75rem;
+  padding: 0.625rem 1.25rem;
+  line-height: 1rem;
+  vertical-align: top;
+  text-align: left;
+  margin: 0 auto;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.ctaContainer {
+  column-gap: 0.625rem;
+  align-items: center;
+  margin-left: 1.25rem;
+  display: flex;
+}
+
+.ctaLink {
+  border: 1px solid var(--accent);
+  background-color: var(--accent);
+  color: var(--foreground);
+  text-align: center;
+  letter-spacing: 0.031rem;
+  text-transform: none;
+  border-radius: 1.875rem;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.3s;
+  display: inline-block;
+  line-height: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.ctaLink:hover {
+  border: 1px solid var(--accent);
+  background-color: transparent;
+  color: var(--accent);
 }

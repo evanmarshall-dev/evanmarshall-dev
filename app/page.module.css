@@ -5,6 +5,10 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  /* TODO: Update margin top if any of background shows on different view ports. */
+  margin-top: 4.8rem;
+  /* TODO: Un-comment red background for testing. */
+  /* background: red; */
 }
 
 .description {
