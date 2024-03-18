@@ -41,7 +41,6 @@ span.brand__secondary {
 .brandLink {
   color: rgba(var(--wild-sand-rgb), 1);
   float: left;
-  text-decoration: none;
   position: relative;
 }
 
@@ -66,7 +65,6 @@ span.brand__secondary {
   vertical-align: top;
   text-align: left;
   margin: 0 auto;
-  text-decoration: none;
   display: inline-block;
   position: relative;
 }
@@ -87,13 +85,12 @@ span.brand__secondary {
   text-align: center;
   letter-spacing: 0.031rem;
   text-transform: none;
-  border-radius: 1.875rem;
+  border-radius: var(--border-radius);
   padding: 0.75rem 1.5rem;
   transition: all 0.3s;
   display: inline-block;
   line-height: inherit;
   cursor: pointer;
-  text-decoration: none;
 }
 
 .ctaLink:hover {

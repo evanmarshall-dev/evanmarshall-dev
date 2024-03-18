@@ -1,10 +1,8 @@
 import Link from 'next/link';
 import styles from './NavMenu.module.css';
-import { latoNormal } from '@/fonts';
+import { latoNormal } from '@/styles/fonts';
 
-// Keep this as a server component for SEO.
-
-export default function NavMenu() {
+const NavMenu = () => {
   return (
     <div className={`${styles.navbar} ${latoNormal.className}`}>
       <div className={styles.navbarContainer}>
@@ -35,4 +33,6 @@ export default function NavMenu() {
       </div>
     </div>
   );
-}
+};
+
+export default NavMenu;

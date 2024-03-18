@@ -1,5 +1,5 @@
-import NavMenu from '../components/NavMenu/NavMenu';
-import './globals.css';
+import NavMenu from '@/components/NavMenu/NavMenu';
+import '@/styles/globals.css';
 import type { Metadata } from 'next';
 // import { GoogleAnalytics } from '@next/third-parties/google';
 
