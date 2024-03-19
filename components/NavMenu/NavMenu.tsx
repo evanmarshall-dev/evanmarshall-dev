@@ -1,10 +1,18 @@
 import Link from 'next/link';
-import { latoNormal } from '@/styles/fonts';
+import { Lato } from 'next/font/google';
+
+const lato = Lato({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  style: ['normal'],
+  display: 'swap',
+  variable: '--font-lato',
+});
 
 const NavMenu = () => {
   return (
     <div
-      className={`${'w-full h-fit items-center py-4 px-0 flex z-[1000] fixed bg-ebony'} ${latoNormal.className}`}
+      className={`${lato.variable} font-sans w-full h-fit items-center py-4 px-0 flex z-[1000] fixed bg-ebony`}
     >
       <div className='py-0 px-12 min-w-full justify-between items-center my-0 mx-auto flex max-w-5xl'>
         <div className='text-lg flex-1 justify-between items-center flex'>

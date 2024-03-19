@@ -14,6 +14,10 @@ const config: Config = {
         'sunset-orange': '#ff533d',
         sandrift: '#ab987a',
       },
+      fontFamily: {
+        sans: ['var(--font-lato)'],
+        serif: ['var(--font-playfair-display)'],
+      },
     },
   },
   plugins: [],

@@ -1,4 +1,10 @@
-import { playfairDisplayNormal } from '@/fonts';
+import { Playfair_Display } from 'next/font/google';
+
+const playfair_display = Playfair_Display({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-playfair-display',
+});
 
 export default async function Home() {
   return (
@@ -6,7 +12,7 @@ export default async function Home() {
       <section className='w-full h-screen flex items-center justify-center snap-start'>
         <div className='max-w-5xl'>
           <h1
-            className={`${playfairDisplayNormal.className} ${'text-wild-sand'}`}
+            className={`${playfair_display.variable} font-serif text-wild-sand text-2xl font-bold leading-7 sm:truncate sm:text-3xl sm:tracking-tight`}
           >
             evanmarshall<span className='text-sunset-orange'>.</span>
             <span className='text-sandrift'>dev</span>
