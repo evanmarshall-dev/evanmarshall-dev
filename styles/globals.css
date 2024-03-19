@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --max-width: 80rem;
   --border-radius: 0.75rem;
@@ -40,8 +44,8 @@ h1 {
   font-size: calc(var(--base-font-size) * 2);
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
   }
 }

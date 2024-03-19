@@ -1,20 +1,21 @@
-import styles from './page.module.css';
 import { playfairDisplayNormal } from '@/fonts';
 
 export default async function Home() {
   return (
-    <main className={styles.mainWrapper}>
-      <section className={styles.sectionWrapper}>
-        <div className={styles.sectionContent}>
-          <h1 className={playfairDisplayNormal.className}>
-            evanmarshall<span className={styles.brand__accent}>.</span>
-            <span className={styles.brand__secondary}>dev</span>
+    <main className='w-full h-screen overflow-y-scroll snap-y snap-mandatory'>
+      <section className='w-full h-screen flex items-center justify-center snap-start'>
+        <div className='max-w-5xl'>
+          <h1
+            className={`${playfairDisplayNormal.className} ${'text-wild-sand'}`}
+          >
+            evanmarshall<span className='text-sunset-orange'>.</span>
+            <span className='text-sandrift'>dev</span>
           </h1>
         </div>
       </section>
-      <section className={styles.sectionWrapper}>
-        <div className={styles.sectionContent}>
-          <p>
+      <section className='w-full h-screen flex items-center justify-center snap-start'>
+        <div className='max-w-5xl'>
+          <p className='text-wild-sand'>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
             tempora cupiditate ullam odit ab a modi vero, doloremque magni
             veniam, maiores eius dignissimos ipsam ipsa quas debitis ipsum

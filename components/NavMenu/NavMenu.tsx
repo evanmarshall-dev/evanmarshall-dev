@@ -1,31 +1,44 @@
 import Link from 'next/link';
-import styles from './NavMenu.module.css';
 import { latoNormal } from '@/styles/fonts';
 
 const NavMenu = () => {
   return (
-    <div className={`${styles.navbar} ${latoNormal.className}`}>
-      <div className={styles.navbarContainer}>
-        <div className={styles.navbarContainerWrapper}>
-          <Link href={'/'} className={styles.brandLink}>
-            evanmarshall<span className={styles.brand__accent}>.</span>
-            <span className={styles.brand__secondary}>dev</span>
+    <div
+      className={`${'w-full h-fit items-center py-4 px-0 flex z-[1000] fixed bg-ebony'} ${latoNormal.className}`}
+    >
+      <div className='py-0 px-12 min-w-full justify-between items-center my-0 mx-auto flex max-w-5xl'>
+        <div className='text-lg flex-1 justify-between items-center flex'>
+          <Link href={'/'} className='text-wild-sand'>
+            evanmarshall<span className='text-sunset-orange'>.</span>
+            <span className='text-sandrift'>dev</span>
           </Link>
-          <nav className={styles.menu}>
-            <div className={styles.menuWrapper}>
-              <Link className={styles.menuLink} href={'#about'}>
+          <nav className='text-right float-right relative block'>
+            <div className='items-center flex'>
+              <Link
+                className='text-lg text-wild-sand max-w-5xl py-2.5 px-5 align-top text-left my-0 mx-auto inline-block relative'
+                href={'#about'}
+              >
                 About
               </Link>
-              <Link className={styles.menuLink} href={'#services'}>
+              <Link
+                className='text-lg text-wild-sand max-w-5xl py-2.5 px-5 align-top text-left my-0 mx-auto inline-block relative'
+                href={'#services'}
+              >
                 Services
               </Link>
-              <Link className={styles.menuLink} href={'#projects'}>
+              <Link
+                className='text-lg text-wild-sand max-w-5xl py-2.5 px-5 align-top text-left my-0 mx-auto inline-block relative'
+                href={'#projects'}
+              >
                 Projects
               </Link>
             </div>
           </nav>
-          <div className={styles.ctaContainer}>
-            <Link className={styles.ctaLink} href={'#contact'}>
+          <div className='text-lg gap-x-2.5 items-center ml-5 flex'>
+            <Link
+              className='text-lg text-wild-sand text-center cursor-pointer rounded-xl bg-sunset-orange border border-solid border-sunset-orange hover:bg-transparent tracking-wide normal-case py-3 px-6 transition-all duration-300 inline-block'
+              href={'#contact'}
+            >
               Contact
             </Link>
           </div>
