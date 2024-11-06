@@ -13,13 +13,13 @@
 <br>
 
 <div align="center">
-  <a margin="2rem" href="https://www.linkedin.com/in/evan-marshall-dev/">
+  <a style="margin:2rem;" href="https://www.linkedin.com/in/evan-marshall-dev/">
     <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 
-  <a margin="2rem" href="https://github.com/evanmarshall-dev">
+  <a style="margin:2rem;" href="https://github.com/evanmarshall-dev">
     <img src="https://img.shields.io/badge/github-181717.svg?&style=for-the-badge&logo=github&logoColor=white" />
-  </a> &nbsp;&nbsp;
+  </a>
 </div>
 
 <br>
