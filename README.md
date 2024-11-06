@@ -7,7 +7,7 @@
 
   <br>
   
-  I also dabble in Freelance for businesses... yeah I'm busy...😅
+  I also freelance to help businesses get online and maintain their sites... Yeah I'm busy...😅
 </div>
 
 <br>
