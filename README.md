@@ -1,3 +1,7 @@
+<style type="text/css" rel="stylesheet">
+  a { margin: 0 2rem; }
+</style>
+
 <h1 align="center">
   What's up? 👋🏻 I'm Evan!
 </h1>
