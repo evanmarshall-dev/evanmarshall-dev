@@ -4,6 +4,9 @@
 
 <div align="center">
   A Web Developer for the Hudson's Bay Company. 🍁
+
+  <br>
+  
   I also dabble in Freelance for businesses... yeah I'm busy...😅
 </div>
 
