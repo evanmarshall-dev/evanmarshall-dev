@@ -3,7 +3,7 @@
 </h1>
 
 <div align="center">
-  A Web Developer for the Hudson's Bay Company. 🍁
+  A Canadian Software Engineer | Web Developer. 🍁
 
   <br>
   
