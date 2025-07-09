@@ -7,7 +7,7 @@
 
   <br>
   
-  I also freelance to help businesses get online and maintain their sites... Yeah I'm busy...😅
+  Currently open to work in Front End, Full Stack, or a Contractor for your online business. ⚒️
 </div>
 
 <br>
