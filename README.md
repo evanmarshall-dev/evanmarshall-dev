@@ -13,13 +13,13 @@ Whether leading a project or collaborating across teams, I bring clarity, creati
 ## 🚀 Featured Projects
 
 ### [🏦 Ledger Light](https://github.com/evanmarshall-dev/ledger-light)
-A modern financial tracking application built with React and TypeScript, featuring intuitive expense management and budget visualization.
+A modern financial tracking application built with MEN stack (MongoDB, Express, and Node) with EJS templates. Displaying RESTful API principles and full CRUD operations.
 
 ### [🌐 Portfolio Website](https://github.com/evanmarshall-dev/evanmarshall-dot-dev)
 My personal portfolio showcasing projects and professional experience, built with modern web technologies and optimized for performance.
 
-### [💼 TripleeT Tech Solutions](https://github.com/evanmarshall-dev/tripleetech-new)
-Custom business solutions and web development projects demonstrating full-stack capabilities and client-focused development.
+### [💼 LuluLemonade App](https://github.com/evanmarshall-dev/lululemonade)
+A simple full-stack e-commerce web app utilizing React and Stripe API for the checkout process.
 
 ---
 
@@ -100,7 +100,7 @@ Outside of work, I'm a dedicated dad, lifelong tech tinkerer, and happiest outdo
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/evan-marshall-dev/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.evanmarshall.dev)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:me@evanmarshall.dev)
 
 **Open to opportunities** | **Available for freelance projects** | **Let's build something amazing together!**
 
