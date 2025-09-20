@@ -18,7 +18,7 @@ A modern financial tracking application built with MEN stack (MongoDB, Express, 
 ### [🌐 Portfolio Website](https://github.com/evanmarshall-dev/evanmarshall-dot-dev)
 My personal portfolio showcasing projects and professional experience, built with modern web technologies and optimized for performance.
 
-### [💼 LuluLemonade App](https://github.com/evanmarshall-dev/lululemonade)
+### [🍋 LuluLemonade App](https://github.com/evanmarshall-dev/lululemonade)
 A simple full-stack e-commerce web app utilizing React and Stripe API for the checkout process.
 
 ---
