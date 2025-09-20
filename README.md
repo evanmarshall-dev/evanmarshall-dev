@@ -71,6 +71,10 @@ A simple full-stack e-commerce web app utilizing React and Stripe API for the ch
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=evanmarshall-dev&theme=react&hide_border=true&background=0D1117" width="48%" />
 </div>
 
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=evanmarshall-dev&layout=compact&theme=react&hide_border=true&bg_color=0D1117&hide_title=true&card_width=400" width="48%" />
+</div>
+
 ---
 
 ## 💼 Professional Focus
