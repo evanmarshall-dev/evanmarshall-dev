@@ -12,6 +12,9 @@ Whether leading a project or collaborating across teams, I bring clarity, creati
 
 ## 🚀 Featured Projects
 
+### [🎒🏕️📸 KickIt](https://github.com/evanmarshall-dev/kickit-frontend)
+A minimalistic adventure goal setting and tracking app built with MERN stack (MongoDB, Express, React, and Node). Displaying RESTful API principles and full CRUD operations as well as React state management, hooks, and routing.
+
 ### [🏦 Ledger Light](https://github.com/evanmarshall-dev/ledger-light)
 A modern financial tracking application built with MEN stack (MongoDB, Express, and Node) with EJS templates. Displaying RESTful API principles and full CRUD operations.
 
