@@ -15,13 +15,13 @@ Whether leading a project or collaborating across teams, I bring clarity, creati
 ### [🎒🏕️📸 KickIt](https://github.com/evanmarshall-dev/kickit-frontend)
 A minimalistic adventure goal setting and tracking app built with MERN stack (MongoDB, Express, React, and Node). Displaying RESTful API principles and full CRUD operations as well as React state management, hooks, and routing.
 
-### [🏦 Ledger Light](https://github.com/evanmarshall-dev/ledger-light)
+### [🏦💰💳 Ledger Light](https://github.com/evanmarshall-dev/ledger-light)
 A modern financial tracking application built with MEN stack (MongoDB, Express, and Node) with EJS templates. Displaying RESTful API principles and full CRUD operations.
 
-### [🌐 Portfolio Website](https://github.com/evanmarshall-dev/evanmarshall-dot-dev)
+### [🌐</>👨‍💻 Portfolio Website](https://github.com/evanmarshall-dev/evanmarshall-dot-dev)
 My personal portfolio showcasing projects and professional experience, built with modern web technologies and optimized for performance.
 
-### [🍋 LuluLemonade App](https://github.com/evanmarshall-dev/lululemonade)
+### [🍋🍓🥤 LuluLemonade App](https://github.com/evanmarshall-dev/lululemonade)
 A simple full-stack e-commerce web app utilizing React and Stripe API for the checkout process.
 
 ---
