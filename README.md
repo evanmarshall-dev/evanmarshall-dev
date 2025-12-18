@@ -54,6 +54,8 @@ A simple full-stack e-commerce web app utilizing React and Stripe API for the ch
 ### **APIs & Backend**
 ![REST API](https://img.shields.io/badge/REST_API-02569B?style=flat-square&logo=rest&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
+![Express](https://img.shields.io/badge/Express-444444?style=flat-square&logo=express&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092e20?style=flat-square&logo=django&logoColor=white)
 
 ### **Design & Analytics**
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
