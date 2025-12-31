@@ -72,8 +72,9 @@ A simple full-stack e-commerce web app utilizing React and Stripe API for the ch
 ## 📈 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=evanmarshall-dev&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=evanmarshall-dev&theme=react&hide_border=true&background=0D1117" width="48%" />
+  <!-- <img src="https://github-readme-stats.vercel.app/api?username=evanmarshall-dev&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" width="48%" /> -->
+  <!-- <img src="https://github-readme-streak-stats.herokuapp.com/?user=evanmarshall-dev&theme=react&hide_border=true&background=0D1117" width="48%" /> -->
+  [![Evan's GitHub stats](https://github-readme-stats.vercel.app/api?username=evanmarshall-dev)](https://github.com/evanmarshall-dev/github-readme-stats)
 </div>
 
 <div align="center">
