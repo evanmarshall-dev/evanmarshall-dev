@@ -74,11 +74,18 @@ A simple full-stack e-commerce web app utilizing React and Stripe API for the ch
 <div align="center">
   <!-- <img src="https://github-readme-stats.vercel.app/api?username=evanmarshall-dev&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" width="48%" /> -->
   <!-- <img src="https://github-readme-streak-stats.herokuapp.com/?user=evanmarshall-dev&theme=react&hide_border=true&background=0D1117" width="48%" /> -->
-  [![Evan's GitHub stats](https://github-readme-stats.vercel.app/api?username=evanmarshall-dev)](https://github.com/evanmarshall-dev/github-readme-stats)
+  <!-- <a href="https://github.com/evanmarshall-dev/github-readme-stats"> -->
+    <!-- <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=evanmarshall-dev" /> -->
+    ![Evan's GitHub stats](https://github-readme-stats.vercel.app/api?username=evanmarshall-dev&show_icons=true&theme=dracula)
+  <!-- </a> -->
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=evanmarshall-dev&layout=compact&theme=react&hide_border=true&bg_color=0D1117&hide_title=true&card_width=400" width="48%" />
+  <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=evanmarshall-dev&layout=compact&theme=react&hide_border=true&bg_color=0D1117&hide_title=true&card_width=400" width="48%" /> -->
+  <!-- <a href="https://github.com/anuraghazra/convoychat">
+    <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=anuraghazra&layout=compact&langs_count=8&card_width=320" />
+  </a> -->
+  ![Evan's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=evanmarshall-dev)](https://github.com/evanmarshall-dev/github-readme-stats)
 </div>
 
 ---
