@@ -18,8 +18,11 @@ A minimalistic adventure goal setting and tracking app built with MERN stack (Mo
 ### [🏦💰💳 Ledger Light](https://github.com/evanmarshall-dev/ledger-light)
 A modern financial tracking application built with MEN stack (MongoDB, Express, and Node) with EJS templates. Displaying RESTful API principles and full CRUD operations.
 
-### [🌐</>👨‍💻 Portfolio Website](https://github.com/evanmarshall-dev/evanmarshall-dot-dev)
+### [🌐</>👨‍💻 Portfolio Website](https://github.com/evanmarshall-dev/portfolio)
 My personal portfolio showcasing projects and professional experience, built with modern web technologies and optimized for performance.
+
+### [🏫📚🧑‍🎓 Synapse](https://synapse-app-5df8cf6d0ffe.herokuapp.com/)
+Synapse is a community platform designed specifically for bootcamp students and alumni. We believe that the most valuable resource in your tech career is your network—the people you meet, the relationships you build, and the knowledge you share.
 
 ### [🍋🍓🥤 LuluLemonade App](https://github.com/evanmarshall-dev/lululemonade)
 A simple full-stack e-commerce web app utilizing React and Stripe API for the checkout process.
