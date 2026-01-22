@@ -21,7 +21,7 @@ A modern financial tracking application built with MEN stack (MongoDB, Express, 
 ### [🌐</>👨‍💻 Portfolio Website](https://github.com/evanmarshall-dev/portfolio)
 My personal portfolio showcasing projects and professional experience, built with modern web technologies and optimized for performance.
 
-### [🏫📚🧑‍🎓 Synapse](https://synapse-app-5df8cf6d0ffe.herokuapp.com/)
+### [🏫📚🧑‍🎓 Synapse](https://github.com/evanmarshall-dev/Synapse)
 Synapse is a community platform designed specifically for bootcamp students and alumni. We believe that the most valuable resource in your tech career is your network—the people you meet, the relationships you build, and the knowledge you share.
 
 ### [🍋🍓🥤 LuluLemonade App](https://github.com/evanmarshall-dev/lululemonade)
